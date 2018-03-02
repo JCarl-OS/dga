@@ -1,0 +1,73 @@
+body {
+  align-content: center;
+  margin-left: : 5%;
+  margin-right: 5%;
+  font-style: normal;
+  font-family: serif;
+  background-image: url(../img/chemistry-background.jpg);
+}
+h1 {
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+header {
+  background-color: #0097A7;
+  align: center;
+  border-radius: 5px;
+}
+
+p.intro {
+  background: solid;
+  background-color: white;
+  padding: inherit;
+}
+
+input[type=number] {
+  width: 5%;
+  border: 1px solid #0097A7;
+  border-radius: 3px;
+  padding: 5px;
+}
+div.inputs {
+  background: solid;
+  background-color: white;
+  margin: 2px;
+  border-color: #0097a7;
+  border-width: thin;
+  padding: 2%;
+  float: left;
+  width: 70%;
+}
+
+/* main {
+  background: solid;
+  background-color: white;
+  margin: 2px;
+  border-color: #0097a7;
+  border-width: thin;
+  padding: 2%;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px lightgray;
+} */
+
+button.calculate {
+  background-color: #0097A7;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  font: bold;
+  font-size: 16px;
+}
+button:hover{
+  transform: scale(1.05);
+}
+aside.videos {
+  background: solid;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  float: right;
+  width: 20%;
+}
